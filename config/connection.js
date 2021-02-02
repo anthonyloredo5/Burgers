@@ -1,5 +1,4 @@
 const { response } = require('express');
-require('console.table');
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
